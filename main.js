@@ -1,6 +1,39 @@
 /*******************
  * YOUR CODE HERE! *
  *******************/
+function yell(x){
+  return x + '!';
+}
+
+function getFirstCharacter(y){
+  return y[0];
+}
+
+function getLastCharacter(z){
+  return z[z.length - 1];
+}
+
+function getOneCharacter(a,b){
+  return a[b];
+}
+
+function getTwoCharacters(d, e, f){
+  return d[e]+d[f];
+}
+
+function makeCapitalized(m){
+  return m.toUpperCase();
+}
+
+function yellLouder(n){
+  return n.toUpperCase() +'!!!';
+}
+
+function getInitials(h){
+  const i = h.indexOf(' ');
+  return h[0] + '.' + h[i+1] + '.';
+}
+
 
 
 
